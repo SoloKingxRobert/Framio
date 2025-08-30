@@ -3,7 +3,7 @@
 [![Rust Stable](https://img.shields.io/badge/rust-stable-blue.svg)](https://www.rust-lang.org/)
 [![Crates.io](https://img.shields.io/crates/v/eframe.svg?label=eframe)](https://crates.io/crates/eframe)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Build](https://github.com/yourusername/framio/actions/workflows/build.yml/badge.svg)](https://github.com/yourusername/framio/actions)
+[![Build](https://github.com/SoloKingxRobert/framio/actions/workflows/build.yml/badge.svg)](https://github.com/SoloKingxRobert/framio/actions)
 ![Windows Only](https://img.shields.io/badge/platform-Windows-blue?style=for-the-badge&logo=windows)
 
 > A **frameless, Rust-powered Windows shell** for building modern, reusable apps — without the OS’s outdated chrome.
@@ -55,7 +55,7 @@ image  = "0.25.6"
 ### Clone and Run
 
 ```bash
-git clone https://github.com/yourusername/framio.git
+git clone https://github.com/SoloKingxRobert/framio.git
 cd framio
 cargo run
 ```
@@ -63,7 +63,7 @@ cargo run
 If your binary name is capitalised in `Cargo.toml`:
 
 ```bash
-cargo run --bin Framio
+cargo run --bin framio
 ```
 
 ---
@@ -105,7 +105,7 @@ README.md
 ## 🛠 Configuration
 
 - **Frameless behaviour** – OS chrome disabled; you control title area, buttons, and hit-testing.
-- **Top bar** – Reserved space for logo, menus, and actions (e.g., Support).
+- **Top bar** – Reserved space for logo, menus, and actions (e.g. Support).
 - **Window actions** – Click targets for minimise / maximise / close and a drag zone mapped to viewport commands.
 - **Theme** – Palette constants defined once and applied across widgets for consistent brand visuals.
 
@@ -143,7 +143,7 @@ A: Absolutely. Framio is designed as a reusable scaffold. Fork, extend, or integ
 
 ## 📝 License
 Copyright © 2025 Robert Whaite  
-Licensed under the [MIT License](LICENSE).
+Licensed under the [MIT Licence](LICENSE).
 
 ---
 
