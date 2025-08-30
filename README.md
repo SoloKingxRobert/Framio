@@ -3,8 +3,8 @@
 [![Rust Stable](https://img.shields.io/badge/rust-stable-blue.svg)](https://www.rust-lang.org/)
 [![Crates.io](https://img.shields.io/crates/v/eframe.svg?label=eframe)](https://crates.io/crates/eframe)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Build](https://github.com/SoloKingxRobert/framio/actions/workflows/build.yml/badge.svg)](https://github.com/SoloKingxRobert/framio/actions)
-![Windows Only](https://img.shields.io/badge/platform-Windows-blue?style=for-the-badge&logo=windows)
+[![Build](https://github.com/SoloKingxRobert/Framio/actions/workflows/build.yml/badge.svg)](https://github.com/SoloKingxRobert/Framio/actions)
+![Windows Only](https://img.shields.io/badge/platform-Windows-blue?logo=windows)
 
 > A **frameless, Rust-powered Windows shell** for building modern, reusable apps — without the OS’s outdated chrome.
 
@@ -34,7 +34,6 @@ eframe = "0.32.1"
 egui   = "0.32.1"
 image  = "0.25.6"
 ```
-
 ---
 
 ## 📸 Preview
