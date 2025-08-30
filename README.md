@@ -54,12 +54,10 @@ image  = "0.25.6"
 ### Clone and Run
 
 ```bash
-git clone https://github.com/SoloKingxRobert/framio.git
-cd framio
+git clone https://github.com/SoloKingxRobert/Framio.git
+cd Framio
 cargo run
 ```
-
-If your binary name is capitalised in `Cargo.toml`:
 
 ```bash
 cargo run --bin framio
