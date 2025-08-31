@@ -1,32 +1,20 @@
 # Framio
 
 [![Rust Stable](https://img.shields.io/badge/rust-stable-blue.svg)](https://www.rust-lang.org/)
-[![Crates.io](https://img.shields.io/crates/v/eframe.svg?label=eframe)](https://crates.io/crates/eframe)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Build](https://github.com/SoloKingxRobert/Framio/actions/workflows/build.yml/badge.svg)](https://github.com/SoloKingxRobert/Framio/actions)
 ![Windows Only](https://img.shields.io/badge/platform-Windows-blue?logo=windows)
 
-> A **frameless, Rust-powered Windows shell** for building modern, reusable apps — without the OS’s outdated chrome.
+---
 
-Framio gives developers **full control over window chrome, branding, and workflow integration**.  
-Built with [Rust](https://www.rust-lang.org/) and [eframe/egui](https://github.com/emilk/egui), it’s the foundation for creating modern, reusable, and visually consistent desktop applications — free from default title bars and legacy UI patterns.
+Framio is a frameless Windows shell built in Rust.  
+Think of it as a starting point for modern apps without the clunky default title bars or outdated UI.  
+You get full control of the window — the top bar, menus, branding, resizing, and theming — all built with [eframe/egui](https://github.com/emilk/egui).
 
 ---
 
-## ✨ Features
+## Dependencies
 
-- **Frameless Window Chrome** – Replace the OS title bar with your own branded top bar, menus, and controls.
-- **Custom Navigation Bar** – Pixel-perfect, branded menu buttons with hover states, dropdowns, and logo integration.
-- **Resizable & Draggable** – Full edge-resize support and custom drag zones for moving the window.
-- **Theming & Branding** – Centralised dark/light palette and brand accents applied consistently across the UI.
-- **Reusable Components** – Modular `egui` widgets that drop cleanly into other Rust projects.
-- **Performance-First** – Rust speed, safety, and maintainability with minimal dependencies.
-
----
-
-## 📦 Dependencies
-
-Framio is built on the latest stable versions:
+Framio is built on the latest stable versions.
 
 ```toml
 [dependencies]
@@ -34,22 +22,16 @@ eframe = "0.32.1"
 egui   = "0.32.1"
 image  = "0.25.6"
 ```
----
 
 ## 📸 Preview
 
 ![Framio Preview](Framio.webp)
 
-👉 Click the image to watch the demo video.
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
-- [Rust](https://www.rust-lang.org/tools/install) (latest stable toolchain)
-- Windows 10 or 11 (primary focus)
-- Cargo (bundled with Rust; verify with `cargo --version`)
+
+You need Rust (latest stable toolchain), Windows 10 or 11, and Cargo (bundled with Rust — check with `cargo --version`).
 
 ### Clone and Run
 
@@ -59,11 +41,12 @@ cd Framio
 cargo run
 ```
 
+Or run the specific binary:
+
 ```bash
 cargo run --bin framio
 ```
 
----
 
 ## 🧩 Project Structure
 
@@ -108,15 +91,6 @@ README.md
 
 ---
 
-## ☕ Support Framio
-
-If Framio helps you ship faster or inspires your own shell, you can say thanks here:
-
-[![Donate via PayPal](https://img.shields.io/badge/💸-Donate%20via%20PayPal-blue?style=for-the-badge)](https://paypal.me/RobertWhaite)
-
-
----
-
 ## 💡 Ideas & Experiments
 
 Some concepts I’ve explored or may revisit in the future:
@@ -141,22 +115,6 @@ A: Absolutely. Framio is designed as a reusable scaffold. Fork, extend, or integ
 ## 📝 License
 Copyright © 2025 Robert Whaite  
 Licensed under the [MIT Licence](LICENSE).
-
----
-
-## 🤝 Contributing
-
-We welcome contributions!
-
-1. Fork the repo and create your branch (`git checkout -b feature/amazing-feature`)
-2. Commit your changes (`git commit -m 'Add some amazing feature'`)
-3. Push to the branch (`git push origin feature/amazing-feature`)
-4. Open a Pull Request
-
-**Guidelines:**
-- Issues & ideas: open with a focused description and screenshots if visual.
-- PR style: small, composable changes with clear commit messages.
-- Design alignment: keep components DRY, brand-aware, and consistent with the palette and spacing system.
 
 ---
 
