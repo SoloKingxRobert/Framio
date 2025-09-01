@@ -7,8 +7,9 @@
 ---
 
 Framio is a frameless Windows shell built in Rust.  
-Think of it as a starting point for modern apps without the clunky default title bars or outdated UI.  
-You get full control of the window — the top bar, menus, branding, resizing, and theming — all built with [eframe/egui](https://github.com/emilk/egui).
+
+It’s your starting point for modern apps without the clunky default title bars or outdated UI.  
+Take full control of the window: top bar, menus, branding, resizing, and theming, all powered by [eframe/egui](https://github.com/emilk/egui).
 
 ---
 
@@ -84,45 +85,16 @@ README.md
 
 ## 🛠 Configuration
 
-- **Frameless behaviour** – OS chrome disabled; you control title area, buttons, and hit-testing.
-- **Top bar** – Reserved space for logo, menus, and actions (e.g. Support).
-- **Window actions** – Click targets for minimise / maximise / close and a drag zone mapped to viewport commands.
-- **Theme** – Palette constants defined once and applied across widgets for consistent brand visuals.
-
----
-
-## 💡 Ideas & Experiments
-
-Some concepts I’ve explored or may revisit in the future:
-- Branded top bar kit
-- Edge resize polish
-- Palette presets
-- Component library
-- Cross‑platform pass
-
----
-
-## ❓ FAQ
-
-**Q: Why frameless?**  
-A: Control. Own your brand, layout, and interactions instead of inheriting OS chrome constraints.
-
-**Q: Can I use this in my own app?**  
-A: Absolutely. Framio is designed as a reusable scaffold. Fork, extend, or integrate modules as needed.
+- **Frameless behaviour**: OS chrome disabled; you control title area, buttons, and hit-testing.
+- **Top bar**: Reserved space for logo, menus, and actions (e.g. Support).
+- **Window actions**: Click targets for minimise / maximise / close and a drag zone mapped to viewport commands.
+- **Theme**: Palette constants defined once and applied across widgets for consistent brand visuals.
 
 ---
 
 ## 📝 License
 Copyright © 2025 Robert Whaite  
 Licensed under the [MIT Licence](LICENSE).
-
----
-
-## 🙏 Acknowledgements
-
-- [Rust](https://www.rust-lang.org/) — Safe & blazing fast systems programming.
-- [egui](https://github.com/emilk/egui) — Immediate mode GUI in Rust.
-- [eframe](https://github.com/emilk/egui/tree/master/crates/eframe) — The Rust framework powering Framio.
 
 ---
 
