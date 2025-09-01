@@ -32,7 +32,7 @@ image  = "0.25.6"
 
 ### Prerequisites
 
-You need Rust (latest stable toolchain), Windows 10 or 11, and Cargo (bundled with Rust — check with `cargo --version`).
+You need Rust (latest stable toolchain), Windows 10 or 11, and Cargo (bundled with Rust: check with `cargo --version`).
 
 ### Clone and Run
 
